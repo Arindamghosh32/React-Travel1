@@ -1,0 +1,36 @@
+.Trip{
+    margin: 4rem 6rem;
+    color: black;
+}
+.Trip h1{
+     font-size:3rem;
+}
+.tripcard{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+.t-card{
+    width:30%;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px black;
+    border-radius: 6px;
+    padding:1rem 0.6rem;
+}
+.photo{
+    height: 200px;
+    width: 360px;
+    overflow: hidden;
+    
+}
+.photo img{
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    object-fit: cover;
+    object-position: 50%200%;
+    
+}
+.photo:hover img{
+    transform: scale(2.3);
+}

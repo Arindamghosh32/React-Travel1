@@ -1,0 +1,23 @@
+.footer{
+    padding: 4rem 6rem;
+   background-color: black;
+   color: aliceblue;
+   display: block;
+   display:flex;
+  
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46rem;
+    
+    justify-content: space-between;
+}
+.footer i{
+   margin: 2rem 1rem;
+   font-size: 2rem;
+   color:white;
+}
+.footer i:hover{
+    color:aqua;
+}
